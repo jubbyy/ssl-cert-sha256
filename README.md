@@ -4,5 +4,7 @@ Simple modified ssl-cert (nmpa script) for printing SHA256 webite's certificate.
 
 Just download and scan a webserver like this
 
+> **Usage **
+>   
+> nmap -p 443 --scripts ssl-cert-sha256 example.com
 
-nmap -p 443 --scripts ssl-cert-sha256 example.com
